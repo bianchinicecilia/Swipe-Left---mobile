@@ -26,8 +26,6 @@
                     <div class="item">Slide 2</div>
                     <div class="item">Slide 3</div>
                 </div>
-                <!-- Carousel nav --> <a class="carousel-control left-flat" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-                <a class="carousel-control right-flat" href="#myCarousel" data-slide="next">&rsaquo;</a>
 
             </div>
         </div>
@@ -42,6 +40,10 @@
      $("#myCarousel").swipeleft(function() {
         $("#myCarousel").carousel('next');
      });
+  });
+
+  $(document).on('mobileinit', function() {
+    $.mobile.loader.prototype.options.disabled = true;
   });
 </script>
 </body>
