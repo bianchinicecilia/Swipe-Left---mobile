@@ -46,3 +46,19 @@
     right: 15px;
     left: auto;
 }
+
+.ui-loader {
+  display: none;
+}
+
+.ui-corner-all {
+  display: none;
+}
+
+.ui-body-all {
+  display: none;
+}
+
+.ui-loader-default {
+  display: none;
+}
